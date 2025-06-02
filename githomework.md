@@ -1666,3 +1666,19 @@ M       githomework.md
 Already on 'main'
 Your branch is ahead of 'origin/main' by 4 commits.
   (use "git push" to publish your local commits)
+
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git checkout myBranch2
+error: Your local changes to the following files would be overwritten by checkout:
+        githomework.md
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git add  githomework.md
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git commit -m "update to homework infomation "
+[main 2074be3] update to homework infomation
+ 1 file changed, 48 insertions(+)
