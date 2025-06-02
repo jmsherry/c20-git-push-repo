@@ -1516,3 +1516,20 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
 $ touch text2.txt
 
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git add .
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git commit -m "text file"
+[main dd39068] text file
+ 9 files changed, 1524 insertions(+), 6 deletions(-)
+ delete mode 100644 README.md
+ create mode 100644 git_exercise.md
+ create mode 100644 image-1.png
+ create mode 100644 image.png
+ create mode 100644 styles/2nd.js
+ create mode 100644 styles/main.js
+ create mode 100644 text2.txt
+
+%  14. Switch to `myBranch2`. Is the text file there?
+
