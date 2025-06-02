@@ -1618,3 +1618,51 @@ Fast-forward
  text2.txt | 1 +
  1 file changed, 1 insertion(+)
 
+<!-- 23. Use `git stash` to temporarily stash changes -->
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git stash
+Saved working directory and index state WIP on main: b527161 merge
+
+
+% 24. Use `git stash list` to see what you have in there.
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git stash list 
+stash@{0}: WIP on main: b527161 merge
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git stash list
+stash@{0}: WIP on main: b527161 merge
+
+% run it twice and say a value that need to be merge.
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git stash --help
+
+git stash list [<log-options>]
+git stash show [-u | --include-untracked | --only-untracked] [<diff-options>] [<stash>]
+git stash drop [-q | --quiet] [<stash>]
+git stash pop [--index] [-q | --quiet] [<stash>]
+git stash apply [--index] [-q | --quiet] [<stash>]
+git stash branch <branchname> [<stash>]
+git stash [push [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q | --quiet]
+             [-u | --include-untracked] [-a | --all] [(-m | --message) <message>]
+             [--pathspec-from-file=<file> [--pathspec-file-nul]]
+             [--] [<pathspec>…​]]
+git stash save [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q | --quiet]
+             [-u | --include-untracked] [-a | --all] [<message>]
+git stash clear
+git stash create [<message>]
+git stash store [(-m | --message) <message>] [-q | --quiet] <commit>
+
+<!-- these are option of git stash  -->
+
+<!-- 25. Do `git checkout main` -->
+
+Admin@DESKTOP-M416I15 MINGW64 /c/The_Jump_Kabir_Hussain/Javascript/assests/c20-git-push-repo (main)
+$ git checkout main
+M       githomework.md
+Already on 'main'
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
